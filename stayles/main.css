@@ -15,6 +15,12 @@ body{
   margin-right: 0px;
 }
 
+.bodyTest{
+  background-color: rgb(121, 121, 121);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .BlogMain{
   margin-top: 5px;
@@ -24,12 +30,6 @@ body{
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: black;
-}
-.bodyTest{
-  background-color: black;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 h1 {
@@ -61,7 +61,7 @@ p {
 }
 
 .BlogContent{
-  color: white;
+  color: rgb(247, 241, 241);
   font-size: 16px;
   margin-top: 3px;
   margin: 5px;
@@ -167,6 +167,7 @@ nav li{
   color: white;
   float: left;
   margin-top: 20px;
+  text-shadow: 1px 1px 3px #888;
 
 }
 
@@ -176,9 +177,14 @@ nav li{
   margin-top: 40px;
 }
 
+.footerIndex{
+  display: block;
+}
+
 .DisclamerTextsIndexs{
   display: block;
   text-align: center;
+  background-color: white;
 }
 
 
