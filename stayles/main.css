@@ -259,11 +259,17 @@ nav li{
   .headbox{
     width: 50%;
   }
+  .headerHtml-Me{
+    width: 50%;
+  }
   #Content{
     flex-direction: column;
   }
   .blogPost{
     font-size: 8px;
+  }
+  .TitleCrad2{
+    color: #888;
   }
 }
 
@@ -271,6 +277,10 @@ nav li{
   header{
     height: 75%
   }
+  .TitleCrad2{
+    color: rgb(220, 220, 220);
+  }
+
   }
 
   @media screen and (max-width:1200px) {
