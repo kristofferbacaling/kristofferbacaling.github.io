@@ -53,23 +53,6 @@ body{
   margin-right: 0px;
 }
 
-.bodyJava{  
-  display: grid;
-  grid-template-areas: 
-    "header"
-    "main"
-    "main2"
-    "main3"
-    "main4"
-    "main5"
-    "main6"
-    "footer";
-  grid-template-rows: 50%;
-  background-color: rgb(255, 163, 58);
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 .BlogMain2{
   display: grid;
   margin-top: 5px;
