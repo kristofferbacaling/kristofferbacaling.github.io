@@ -47,7 +47,25 @@ body{
     "main7 main8 main9"
     "footer footer footer";
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgb(121, 121, 121);
+  background-color: rgb(255, 163, 58);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.bodyJava{  
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "main"
+    "main2"
+    "main3"
+    "main4"
+    "main5"
+    "main6"
+    "footer";
+  grid-template-rows: 50%;
+  background-color: rgb(255, 163, 58);
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -60,50 +78,77 @@ body{
 
 .BlogMain{
   grid-area: main;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(227, 101, 101);
+  margin: 5px;
 }
 
 .BlogMainC02{
   grid-area: main2;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(55, 181, 43);
+  margin: 5px;
 }
 .BlogMainC03{
   grid-area: main3;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(227, 101, 101);
+  margin: 5px;
 }
 
 .BlogMainC04{
   grid-area: main4;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(55, 181, 43);
+  margin: 5px;
 }
 .BlogMainC05{
   grid-area: main5;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(227, 101, 101);
+  margin: 5px;
 }
 .BlogMainC06{
   grid-area: main6;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(55, 181, 43);
+  margin: 5px;
 }
 .BlogMainC07{
   grid-area: main7;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(227, 101, 101);
+  margin: 5px;
 }
 .BlogMainC08{
   grid-area: main8;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(55, 181, 43);
+  margin: 5px;
 }
 .BlogMainC09{
   grid-area: main9;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(227, 101, 101);
+  margin: 5px;
 }
 
 h1 {
@@ -137,12 +182,24 @@ p {
 .BlogContent{
   color: rgb(247, 241, 241);
   font-size: 16px;
-  margin-top: 3px;
   margin: 5px;
+  padding: 5px;
 }
 
 .imgClass{
   width: 400px;
+}
+
+.imgClassArray{ 
+  display: grid;
+  width: 600px;
+  margin: 5px;
+}
+
+.imgClassObject{
+  display: grid;
+  width: 200px;
+  margin: 5px;
 }
 
 .colorLink{
@@ -250,7 +307,7 @@ nav li{
 
 .footerIndex{
   grid-area: footer;
-  background-color: rgb(121, 121, 121);
+  background-color: rgb(255, 254, 253);
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
