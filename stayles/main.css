@@ -20,23 +20,30 @@ body{
   margin-right: 0px;
 }
 
+.exsampleTexts{
+  color: rgb(247, 153, 2);
+}
+
 .button {
-	font-size: 1vw;
+	font-size: 20px;
 	font-weight: 200;
-	display: inline-block;
-	outline: 0;
 	cursor: pointer;
-	border: 3px solid black;
-	border-radius: 3px;
+	border: 1px solid black;
+	border-radius: 50%;
 	color: white;
 	background: black;
-	padding: 12px 20px;
-	text-align: center;
-	transition-duration: .15s;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(.4,0,.2,1);
-	margin: 0px 15px 15px 15px;
+	padding: 10px;
+	margin: 10px;
+  transition-duration: 0.1s;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.19);
 }
+
+.button:hover{
+  background-color: blue;
+  box-shadow: 0 2px 6px 0 rgba(63, 2, 247, 0.2), 0 1px 10px 0 rgba(12, 60, 233, 0.19);
+}
+
+
 
 .bodyTest{  
   display: grid;
@@ -47,7 +54,10 @@ body{
     "main7 main8 main9"
     "footer footer footer";
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgb(255, 163, 58);
+  background-image: url('../Image/conrad-ziebland-agE97zp_Xvo-unsplash.jpeg');
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -64,7 +74,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(227, 101, 101);
+	background: rgb(7, 166, 36);
   margin: 5px;
 }
 
@@ -73,7 +83,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(55, 181, 43);
+	background: rgb(101, 22, 242);
   margin: 5px;
 }
 .BlogMainC03{
@@ -81,7 +91,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(227, 101, 101);
+	background: rgb(7, 166, 36);
   margin: 5px;
 }
 
@@ -90,7 +100,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(55, 181, 43);
+	background: rgb(101, 22, 242);
   margin: 5px;
 }
 .BlogMainC05{
@@ -98,7 +108,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(227, 101, 101);
+	background: rgb(7, 166, 36);
   margin: 5px;
 }
 .BlogMainC06{
@@ -106,7 +116,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(55, 181, 43);
+	background: rgb(101, 22, 242);
   margin: 5px;
 }
 .BlogMainC07{
@@ -114,7 +124,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(227, 101, 101);
+	background: rgb(7, 166, 36);
   margin: 5px;
 }
 .BlogMainC08{
@@ -122,7 +132,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(55, 181, 43);
+	background: rgb(101, 22, 242);
   margin: 5px;
 }
 .BlogMainC09{
@@ -130,7 +140,7 @@ body{
   border: 3px solid black;
 	border-radius: 3px;
 	color: white;
-	background: rgb(227, 101, 101);
+	background: rgb(7, 166, 36);
   margin: 5px;
 }
 

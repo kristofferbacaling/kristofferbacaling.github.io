@@ -1,9 +1,17 @@
 // kris example button
 // have button when press show print out a text example saying the dom in the works
 
+let i = false
+
 function domButton() {
-  document.getElementById('exampleText').innerHTML =
-    'Hi this is the DOM in action with the help of Java'
+  if (i === false) {
+    i = true
+    document.getElementById('exampleText').innerHTML =
+      'Hi this is the DOM in action with the help of Javascript'
+  } else {
+    i = false
+    document.getElementById('exampleText').innerHTML = ''
+  }
 }
 
 document.getElementById('krisButton').onclick = domButton
