@@ -52,6 +52,9 @@ body{
     "main main2 main3"
     "main4 main5 main6"
     "main7 main8 main9"
+    "main10 main11 main12"
+    "main13 main14 main15"
+    "main16 main17 main18"
     "footer footer footer";
   grid-template-rows: 1fr 1fr 1fr;
   background-image: url('../Image/conrad-ziebland-agE97zp_Xvo-unsplash.jpeg');
@@ -143,6 +146,82 @@ body{
 	background: rgb(7, 166, 36);
   margin: 5px;
 }
+.BlogMainC10{
+  grid-area: main10;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(101, 22, 242);
+  margin: 5px;
+}
+.BlogMainC11{
+  grid-area: main11;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(7, 166, 36);
+  margin: 5px;
+}
+
+.BlogMainC12{
+  grid-area: main12;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(101, 22, 242);
+  margin: 5px;
+}
+.BlogMainC13{
+  grid-area: main13;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(7, 166, 36);
+  margin: 5px;
+}
+.BlogMainC14{
+  grid-area: main14;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(101, 22, 242);
+  margin: 5px;
+}
+.BlogMainC15{
+  grid-area: main15;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(7, 166, 36);
+  margin: 5px;
+}
+
+.BlogMainC16{
+  grid-area: main16;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(101, 22, 242);
+  margin: 5px;
+}
+.BlogMainC17{
+  grid-area: main17;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(7, 166, 36);
+  margin: 5px;
+}
+
+.BlogMainC18{
+  grid-area: main18;
+  border: 3px solid black;
+	border-radius: 3px;
+	color: white;
+	background: rgb(101, 22, 242);
+  margin: 5px;
+}
+
 
 h1 {
   font-size: 26px;
